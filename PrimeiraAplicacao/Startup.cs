@@ -42,7 +42,7 @@ namespace PrimeiraAplicacao
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Cidades}/{action=Index}/{id?}");
             });
         }
     }

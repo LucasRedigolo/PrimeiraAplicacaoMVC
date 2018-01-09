@@ -12,6 +12,7 @@ namespace PrimeiraAplicacao.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Texto"] = "Conteudo do Controlador";
             return View();
         }
 
